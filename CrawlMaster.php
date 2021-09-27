@@ -3,14 +3,13 @@
 <html>
 
 <head>
+
     <?php include_once '../Include/meta-games.php'; ?>
     <?php include_once '../Include/includes.php'; ?>
     <link href="/CSS/CM_style.css" rel="stylesheet" type="text/css">
 
     <title>Crawl Master</title>
     <?php include_once '../Include/IE_patch.php'; ?>
-
-
     <style>
     #goToTop {
         display: none
@@ -22,6 +21,8 @@
     <div id="head">
         <?php include_once '../Include/header.php'; ?>
     </div>
+    
+    <?php include_once '../Include/ad.php'; ?>
 
     <div id="gameResolutionAlert" class="hide_extraLarge hide_large">
         <h3>Resolution too low alert!</h3>
@@ -294,4 +295,4 @@
     </div>
 </body>
 
-</html><?php
+</html>

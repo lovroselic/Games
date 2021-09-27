@@ -23,7 +23,7 @@
         <div id="head">
             <?php include_once '../Include/header.php'; ?>
         </div>
-
+        
         <?php include_once '../Include/ad.php'; ?>
 
         <div id="gameResolutionAlert" class="hide_extraLarge hide_large">
@@ -166,7 +166,4 @@
             <?php include_once '../Include/footer.php'; ?>
         </div>
     </body>
-</html><?php
-
-
-
+</html>
