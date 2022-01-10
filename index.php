@@ -171,6 +171,16 @@
                     But the Princess is still up to something. You better enter the castle and find what she wants.</p>
                 <a href="/Games/CastleHaunt.php">Play the game</a>
             </div>
+            <h3>GhostRun II</h3>
+            <div>
+                <a href="/Games/GhostRun2.php"><img class="fl ipic" src="/Images/GhostRun.png" width="200"
+                        height="133"></a>
+                <p>Ghosty has become rich in his previous adventures in Princess' castle.
+                    And as he wanted to enjoy the fruits of his greed in peace, the greedy wizard appeared. YOU!
+                </p>
+                <p>New version of GhostRun</p>
+                <a href="/Games/GhostRun.php">Play the game</a>
+            </div>
             <h3>GhostRun</h3>
             <div>
                 <a href="/Games/GhostRun.php"><img class="fl ipic" src="/Images/GhostRun.png" width="200"

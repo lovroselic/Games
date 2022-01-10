@@ -35,7 +35,7 @@
         <div class="win" id="setup">
             <div id="load">
             </div>
-            <a href="/Games/" title="Return to games' index"><img alt="Anxys" class="fr logo" src="/Images/Eyes.png" width="20" height="20"></a>
+            <a href="/Games/" title="Return to games' index"><img alt="GhostRun" class="fr logo" src="/Images/Eyes.png" width="20" height="20"></a>
             <div id="SC"></div>
             <h1 id="title"></h1>
             <p>Ghosty has become rich in his previous adventures in Princess' castle (<a href="/Games/CastleHaunt.php">CastleHunt</a>) and ancient tombs (<a href="/Games/Anxys.php">Anxys</a>). And as he wanted to enjoy the fruits of his greed in peace, the greedy wizard appeared. YOU!</p>
