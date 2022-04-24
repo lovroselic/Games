@@ -40,7 +40,7 @@ var INI = {
     LEVEL_FACTOR: 0.4,
 };
 var PRG = {
-    VERSION: "2.00",
+    VERSION: "2.01",
     NAME: "GhostRun II",
     YEAR: "2021",
     CSS: "color: #239AFF;",
@@ -796,7 +796,8 @@ var TITLE = {
         ENGINE.GAME.ANIMATION.next(GAME.runTitle);
     },
     clearAllLayers() {
-        ENGINE.layersToClear = new Set(["text", "animation", "actors", "explosion", "sideback", "button", "score", "energy", "lives", "stage", "radar", "title"]);
+        ENGINE.layersToClear = new Set(["text", "animation", "actors", "explosion", "sideback", "button", "score",
+            "energy", "lives", "stage", "radar", "title", "splash"]);
         ENGINE.clearLayerStack();
     },
     blackBackgrounds() {
@@ -1050,9 +1051,9 @@ var TITLE = {
         CTX.shadowBlur = 0;
         var orx = pad + 1;
         var ory = y + 1;
-        
+
         //draw hero
-        CTX.fillStyle = "#00F"; 
+        CTX.fillStyle = "#00F";
         CTX.pixelAt(
             orx + HERO.moveState.homeGrid.x * INI.MINI_PIX,
             ory + HERO.moveState.homeGrid.y * INI.MINI_PIX,
