@@ -145,6 +145,13 @@
 
         <h1>Arcade Games</h1>
         <div id="arcade" class="margins">
+            <h3>Invasion</h3>
+            <div>
+                <a href="/Games/Invasion.php"><img class="fl ipic" src="/Images/Invasion.png" width="200" height="112"></a>
+                <p>You are a ruler of a mighty country set to bring the democracy and prosperity to a small and unassuming
+                country. Of course you are not the bad guy here. Why do you ask?.</p>
+                <a href="/Games/Invasion.php">Play the game</a>
+            </div>
             <h3>Qwyx</h3>
             <div>
                 <a href="/Games/Qwyx.php"><img class="fl ipic" src="/Images/Qwyx.jpg" width="200" height="200"></a>
